@@ -355,15 +355,11 @@ body{
 /* ----- MEDIA QUERIES ----- */
 /* ----- FOR DESKTOP (1024px-1399px) ----- */
     @media (max-width: 1399px) {
-        .card-wrapper {
-            grid-template-columns: repeat(4, 1fr);
-        }
+        .card-wrapper { grid-template-columns: repeat(4, 1fr); }
     }
 /* ----- FOR TABLET LANDSCAPE (768px-1023px) ----- */
     @media (max-width: 1023px) {
-        .card-wrapper {
-            grid-template-columns: repeat(2, 1fr);
-        }
+        .card-wrapper { grid-template-columns: repeat(2, 1fr); }
     }
 /* ----- FOR TABLET / LARGE MOBILE 576px-767PX) ----- */
     @media (max-width: 767px) {
