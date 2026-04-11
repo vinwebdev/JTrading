@@ -403,7 +403,7 @@ body{
             justify-content: center;
             align-items: center;
             text-align: center; /* optional for text */
-            background-color: rgba(252, 249, 253, 0.3);
+           /* background-color: rgba(252, 249, 253, 0.3); */
             border-radius: 5%;
             width: auto;
         }
