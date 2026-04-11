@@ -367,56 +367,19 @@ body{
     }
 /* ----- FOR TABLET / LARGE MOBILE 576px-767PX) ----- */
     @media (max-width: 767px) {
-        .header {
-            padding: 5px 0;
-        }
-
-        .header.shrink .logo-main {
-            width: 4.5rem;
-            height: 4.5rem;
-        }
-
-        .card-wrapper {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-        }
-
-        .logo-main {
-            width: 6rem;
-            height: 6rem;
-        }
-
-        .productname {
-            font-size: 2rem;
-        }
+        .header { padding: 5px 0; }
+        .header.shrink .logo-main { width: 4.5rem; height: 4.5rem; }
+        .card-wrapper { grid-template-columns: repeat(2, 1fr);  gap: 2rem; }
+        .logo-main { width: 6rem;  height: 6rem; }
+        .productname { font-size: 2rem; }
     }
 /* ----- FOR MOBILE up to 575px----- */
     @media (max-width: 575px) {
-        .card-wrapper {
-            grid-template-columns: 1fr;
-            padding: 1rem;
-        }
-
-        .card {
-            max-width: 80%;
-        }
-
-        .logo-main {
-            width: 5rem;
-            height: 5rem;
-        }
-
-        .productname {
-            font-size: 1.8rem;
-        }
-
-        .about {
-            font-size: 1.3rem;
-        }
-
-        .btn_card {
-            width: 40%;
-            font-size: 1.3rem;
-        }
+        .card-wrapper { grid-template-columns: 1fr; padding: 1rem; }
+        .card { max-width: 80%; }
+        .logo-main { width: 5rem; height: 5rem; }
+        .productname { font-size: 1.8rem; }
+        .about { font-size: 1.3rem; }
+        .btn_card { width: 40%; font-size: 1.3rem; }
     }
 /* ------------------------- */
