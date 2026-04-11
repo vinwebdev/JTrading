@@ -367,7 +367,7 @@ body{
     }
 /* ----- FOR TABLET / LARGE MOBILE 576px-767PX) ----- */
     @media (max-width: 767px) {
-        .header { padding: 5px 0; }
+        .header { padding: 5px 0; width: 80%; }
         .header.shrink .logo-main { width: 4.5rem; height: 4.5rem; }
         .card-wrapper { grid-template-columns: repeat(2, 1fr);  gap: 2rem; }
         .logo-main { width: 6rem;  height: 6rem; }
